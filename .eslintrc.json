@@ -27,7 +27,8 @@
       "error",
       {
         "skipWords": [
-          "eslint"
+          "eslint",
+          "injectable"
         ]
       }
     ]
