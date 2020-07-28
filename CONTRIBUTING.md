@@ -11,4 +11,8 @@ The code was separated in two main folders: `src` and `test`, where the first on
 * main: contains the resources about the application domain using explicit DDD folder structure without `infrastructure` because that one was unecessary.
 
 
+## Code Standards
 
+This project uses eslint code standands. We recommend to use an automated tool to format your code.
+
+* Configure your editor to use `.editorconfig` file
