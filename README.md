@@ -44,3 +44,7 @@ Now, just run the following command to execute the program.
 ```sh
 ./run-docker-image.sh <input_number>
 ```
+
+## Contributing
+
+The [contributing](./CONTRIBUTING.md) file specifies the code architeture. Take a look at to get about the code.
