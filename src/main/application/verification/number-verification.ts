@@ -1,7 +1,9 @@
+import "reflect-metadata";
 import INumberVerification from "main/domain/i-number-verification";
 import { injectable } from "inversify";
 import OnlyOddNumberGenerator from "../generators/only-odd-number-generator";
 import { containsEvenNumbers } from "core/helper/contains-even-numbers";
+import { containsNonNumbers } from "core/helper/contains-non-numbers";
 
 /**
  * Collection of verification on numbers represented by strings
@@ -22,7 +24,7 @@ export default class NumberVerification implements INumberVerification {
       return false;
     }
 
-    if (containsEvenNumbers(number)) {
+    if (containsNonNumbers(number) || containsEvenNumbers(number)) {
       return false;
     }
 

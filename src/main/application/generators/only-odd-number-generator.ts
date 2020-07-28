@@ -1,10 +1,8 @@
 import { replaceStringCharByIndex } from "core/helper/replace-string-char-by-index";
-import { injectable } from "inversify";
 
 /**
- * Generates sequential numbers formed only by even numbers starting by 1;
+ * Generates sequential numbers formed only by even numbers starting by 1
  */
-@injectable()
 export default class OnlyOddNumberGenerator {
   private currentNumber: string = "";
 

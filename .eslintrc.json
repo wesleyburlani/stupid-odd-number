@@ -28,7 +28,8 @@
       {
         "skipWords": [
           "eslint",
-          "injectable"
+          "injectable",
+          "argv"
         ]
       }
     ]
